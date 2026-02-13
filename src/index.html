@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="max-age=36000, must-revalidate">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Приглашение на свадьбу</title>
+    <meta property="og:title" content="Приглашение на свадьбу">
+    <meta property="og:description" content="Жених и Невеста приглашают вас на свадьбу. Ваше приглашение:">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-container">
+            <button class="menu-button fontAwesome fontAwesome-bars" action="menu_button_action">
+            </button>
+            <div id="menu" class="menu menu_hidden">
+                <a href="#mymain" class="menu-item">
+                    <i class="fontAwesome fontAwesome-star"></i>
+                    <span>Главная</span>
+                </a>
+                <a href="#invite" class="menu-item">
+                    <i class="fontAwesome fontAwesome-align-center"></i>
+                    <span>Приглашение</span>
+                </a>
+                <a href="#forms" class="menu-item">
+                    <i class="fontAwesome fontAwesome-check-square-o"></i>
+                    <span>Опрос</span>
+                </a>
+                <a href="#timetable" class="menu-item">
+                    <i class="fontAwesome fontAwesome-list-ul"></i>
+                    <span>Расписание</span>
+                </a>
+                <a href="#map" class="menu-item">
+                    <i class="fontAwesome fontAwesome-map"></i>
+                    <span>Карта</span>
+                </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="background" elemplace="bgcolor" style="background: rgb(255, 255, 255);">
+        <div class="window block" elemplace="bgcolor" id="mymain" module="mymain" style="background: var(--main-color)">
+            <div class="container">
+                <div class="container_polaroid">
+                    <div class="polaroid__with_heart">
+                        <img class="polaroid__heart polaroid__heart_left zoomInAnnimationLeftHeart" src="/img/heart_left.svg" />
+                        <div class="polaroid popInAnnimation">
+                            <img class="polaroid__image" src="/img/child_groom.jpg" alt="Фото жениха">
+                            <div class="polaroid__caption">Никита</div>
+                        </div>
+                    </div>
+                    <span class="plus popInAnnimation">+</span>
+                    <div class="polaroid__with_heart">
+                        <div class="polaroid popInAnnimation">
+                            <img class="polaroid__image" src="/img/child_bride.jpg" alt="Фото невесты">
+                            <div class="polaroid__caption">Юля</div>
+                        </div>
+                        <img class="polaroid__heart polaroid__heart_right zoomInAnnimationRightHeart" src="/img/heart_right.svg" />
+                    </div>
+                </div>
+                <div class="container_message">
+                    <div class="equation popInAnnimation">Ю + Н = ♡︎</div>
+                    <div class="message popInAnnimation">МЫ ВЫРОСЛИ, И ТЕПЕРЬ НАМ МОЖНО</div>
+                    <div class="date popInAnnimation">18 ИЮЛЯ 2026</div>
+                </div>
+                <div action="eventTracker" class="eventTracker">
+                </div>
+            </div>
+        </div>
+
+        <div id="invite" class="invite-section">
+            <div class="invite">
+                <div class="invite__greeting">
+                    Дорогой<br>Гость!
+                </div>
+
+                <div class="invite__greeting__description">
+                    Мы рады сообщить Вам, что 18.07.2026 состоится самое главное торжество в нашей жизни
+                    - день нашей свадьбы!<br>
+                    Приглашаем Вас стать частью этого незабываемого дня. <br><br>
+                </div>
+
+                <div class="invite__greeting__description">
+                    18.07.2026 в 12:20 <br>
+                    Центральный ЗАГС <br>
+                    Омск, Иртышская набережная, 9 <br><br>
+                </div>
+
+                <div class="invite__prase">
+                    <img src="/img/photo_prase.jpg" class="prase__photo">
+                    <span class="prase__description">Там, где посеяна любовь, растёт счастье</span>
+                </div>
+
+                <div class="invite__portrait">
+                    <img src="/img/groome.jpg" class="portrait__photo">
+                    <span class="portrait__description">Жених</span>
+                </div>
+
+                <div class="invite__portrait">
+                    <img src="/img/bride.jpg" class="portrait__photo">
+                    <span class="portrait__description">Невеста</span>
+                </div>
+
+                <div class="invite__description__list">
+                    <div class="invite__description">
+                        <span class="invite__description__header">МЕНЮ</span>
+                        <span class="invite__description__text">
+                            Меню разнообразно, поэтому сообщите нам заранее, если у вас есть какие-либо предпочтения
+                            или
+                            диетические ограничения.
+                        </span>
+                    </div>
+                    <div class="invite__description">
+                        <span class="invite__description__header">ПОЖЕЛАНИЯ ПО ПОДАРКАМ</span>
+                        <span class="invite__description__text">
+                            Мы планируем переезжать и не сможем увезти всё с собой, поэтому будем рады денежному
+                            подарку. Но всё же лучший подарок для нас - ваше присуствие.
+                        </span>
+                    </div>
+                    <div class="invite__description">
+                        <span class="invite__description__header">ПРИМЕЧАНИЕ</span>
+                        <span class="invite__description__text">
+                            Будем благодарны, если вы воздержитесь от криков "Горько" на празднике, ведь поцелуй
+                            — это знак выражения чувств, он не может быть по заказу.
+                        </span>
+                    </div>
+                    <div class="invite__description">
+                        <span class="invite__description__header">ПОДТВЕРЖДЕНИЕ</span>
+                        <span class="invite__description__text">
+                            Пожалуйста подтвердите свое присутствие до 20.06.2026. <br>
+                            В указанную дату необходимо написать в личные сообщения
+                            Telegram: <a href="http://t.me/algeps">t.me/algeps</a>
+                            или Вконтакте: <a href="http://vk.com/algeps">vk.com/algeps</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="invite__palitra">
+                    <span class="palitra__header">
+                        Будем благодарны, если при выборе нарядов на наше
+                        торжество вы придержитесь следующей палитры:
+                    </span>
+                    <div class="palitra__colors">
+                        <div class="palitra__color" style="background: rgb(179, 216, 250);">
+                        </div>
+                        <div class="palitra__color" style="background: rgb(128, 0, 32);">
+                        </div>
+                        <div class="palitra__color" style="background: rgb(126, 86, 86);">
+                        </div>
+                        <div class="palitra__color" style="background: rgb(241, 215, 190);">
+                        </div>
+                        <div class="palitra__color" style="background: rgb(132, 137, 117);">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="forms" class="forms">
+                    <iframe id="google_form" class="forms__iframe"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScEACLtGPQN9QssJ8NEgNpACuzMHEUhJ1mK5r9rC2xrVavQDg/viewform?embedded=true"
+                        frameborder="0">Загрузка…</iframe>
+                </div>
+
+                <span class="invite__goodbye">
+                    Ждем Вас!
+                </span>
+            </div>
+        </div>
+        <div id="timetable" class="timetable">
+            <div class="timetable__header">
+                Свадебное расписание
+            </div>
+            <div class="timetable__content">
+                <div class="event">
+                    <div class="event__time">12:20</div>
+                    <div class="event__details">
+                        <div class="event__title">
+                            <div class="event__title__name">
+                                Торжественная регистрация брака в ЗАГС
+                            </div>
+                            <div class="event__title__address">
+                                Иртышская набережная, 9
+                            </div>
+                        </div>
+                        <div class="event__discription">
+                            Наша регистрация пройдет в залах Центрального ЗАГСа, приглашаем всех разделить с
+                            нами
+                            такой торжественный момент
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event__time">13:00</div>
+                    <div class="event__details">
+                        <div class="event__title">
+                            <div class="event__title__name">
+                                Фотосессия
+                            </div>
+                            <div class="event__title__address">
+                                На территории города
+                            </div>
+                        </div>
+                        <div class="event__discription">
+                            До банкета у вас будет время, чтобы узнать друг друга поближе и пофотографироваться
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event__time">15:00</div>
+                    <div class="event__details">
+                        <div class="event__title">
+                            <div class="event__title__name">
+                                Праздничный банкет
+                            </div>
+                            <div class="event__title__address">
+                                Банкетный зал "Колчакъ" (4 этаж), ресторан "Колчакъ", ул. Броз Тито, д. 2/1
+                            </div>
+                        </div>
+                        <div class="event__discription">
+                            Здесь мы будем праздновать
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event__time">23:00</div>
+                    <div class="event__details">
+                        <div class="event__title">
+                            <div class="event__title__name">
+                                Окончание праздничного дня
+                            </div>
+                            <div class="event__title__address">
+                                Крыльцо ресторана
+                            </div>
+                        </div>
+                        <div class="event__discription">
+                            Даже такой день может когда-то подойти к концу
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="map" class="map">
+            <!-- https://yandex.ru/map-constructor/ -->
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0e5f893ce57d0809353c0357af54bfc91f9e47870361bbd4d382fd37432ade00&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+
+        <div id="footer" class="footer">
+            <div class="footer__logo">
+                <a>© 2026</a> <a href="https://github.com/Algeps/">Algeps</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

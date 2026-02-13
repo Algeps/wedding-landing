@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.port": 5500,
+<<<<<<< HEAD
+    "liveServer.settings.root": "/src"
+=======
+    "liveServer.settings.root": "/dist"
+>>>>>>> 833aa73 (первое закомиченное)
+}
