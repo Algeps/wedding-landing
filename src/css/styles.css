@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Betmo';
-  src: url("/fonts/Betmo.otf") format('opentype');
+  src: url("../fonts/Betmo.otf") format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'CormorantInfant-Light';
-  src: url("/fonts/CormorantInfant-Light.woff") format('woff');
+  src: url("../fonts/CormorantInfant-Light.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -16,14 +16,14 @@
 
 @font-face {
   font-family: FontAwesome;
-  src: url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2");
+  src: url(../fonts/fontawesome-webfont.woff2) format("woff2");
   font-weight: 400;
   font-style: normal
 }
 
 @font-face {
   font-family: 'LeJardin';
-  src: url("/fonts/LeJardine.woff") format('woff');
+  src: url("../fonts/LeJardine.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: 'Patriciana';
-  src: url("/fonts/Patriciana.woff") format('woff');
+  src: url("../fonts/Patriciana.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -39,7 +39,7 @@
 
 @font-face {
   font-family: 'Rotonda';
-  src: url("/fonts/RotondaC.woff") format('woff');
+  src: url("../fonts/RotondaC.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: 'TildaSans-L';
-  src: url("/fonts/TildaSans-L.ttf") format('truetype');
+  src: url("../fonts/TildaSans-L.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -55,7 +55,7 @@
 
 @font-face {
   font-family: 'TildaSans-R';
-  src: url("/fonts/TildaSans-R.ttf") format('truetype');
+  src: url("../fonts/TildaSans-R.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -63,7 +63,7 @@
 
 @font-face {
   font-family: 'Vetrino';
-  src: url("/fonts/Vetrino.otf") format('opentype');
+  src: url("../fonts/Vetrino.otf") format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: auto
@@ -630,25 +630,12 @@ header {
 .forms {
   display: block;
   align-items: center;
-<<<<<<< HEAD
   height: 2000px;
   overflow: hidden;
 }
 
 .forms__iframe {
   height: 100%;
-=======
-  /*
-  height: 120rem;
-  */
-}
-
-.forms__iframe {
-  /*
-  height: 100%;
-  */
-  height: 1800px;
->>>>>>> 833aa73 (первое закомиченное)
   width: 100%;
 }
 
